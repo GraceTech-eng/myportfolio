@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <tittle style="color: black;">My Portfolio&copy;</tittle>
+        <meta charset="UTF-8">
+        <meta name="author" content="ATIENO GRACE E ONYANGO" >
+        <meta name="descripition" content="A portfolio for Atieno Grace E Onyango, the best known computer programmer,coder and software developer in Kenya">
+        <meta property="og:title" content="ATIENO GRACE E ONYANGO Portfolio">
+        <meta property="og:type" content="website">
+        <meta proprety="og:url" content="http://www.graceportfoliowebsite.com">
+        <style>
+            /*General Body Styling*/
+            body{
+                background-color:whitesmoke;
+                color: white;
+                margin: 0;
+                padding: 0;
+                font-family: 'Times New Roman', Times, serif;
+            }
+            /*division styling*/
+            h1{
+                font-size: xx-large;
+                color:black;
+                text-align: center;
+            }
+            header{
+                background: linear-gradient(rgb(20, 20, 20), rgb(10, 10, 169));
+                padding: 10px;
+                text-align:left;
+                background-size: 200% 200%;
+                animation: gradientBG 4s infinite alternate;
+}
+    
+
+             h2{
+                font-size: x-large;
+                color: white;
+                text-align: center;
+
+            }
+            img{
+                width: 250px;
+                height: 250px;
+                border-radius: 250px;
+                justify-content: center;
+                object-fit: cover;
+                margin: 20px auto;
+                display: block;
+                border: 5px solid black;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            }
+            .swing {
+                display: block;
+                margin: 20px auto;
+                width: 250px;
+                height: 250px;
+                transform-origin: top center; /* Set rotation point */
+                animation: swingUpDown 2s ease-in-out infinite alternate;
+            }
+            /*navigation styling*/
+            nav {
+            display: flex;
+            justify-content: center;
+            margin: 20px 0;
+            padding: 10px;
+            background:blue;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        nav button {
+            margin: 0 10px;
+            padding: 12px 25px;
+            background-color: white;
+            color:rgb(27, 27, 151);
+            border: 2px solid white;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1rem;
+            transition: 0.3s ease;
+        }
+        nav button:hover {
+            background-color: #4a148c;
+            color: white;
+            border-color: #4a148c;
+        }
+        /*section styling*/
+        section{
+            display: none; /* Hidden by default */
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 1000px;
+            background-color:rgb(23, 23, 172);
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            animation: fadeIn 0.7s ease-in-out;
+        }
+       
+        /*Animations*/
+        @keyframes  gradientBG {
+    0% {background-position: 0% 50%;
+    }
+    50%{background-position: 50% 100%;
+    }
+}
+    @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        @keyframes swingUpDown {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px); /* Moves up */
+    }
+    100% {
+        transform: translateY(0); /* Moves back down */
+    }
+}
+    
+
+
+
+
+                
+
+        </style>
+    </head>
+    <body>
+        <script>
+            alert("Welcome to Grace Emmaculate Portfolio Webpage")
+        </script>
+        <div>
+            <h1>MY PORTFOLIO</h1>
+            <header>
+            <h2>GRACE EMMACULATE </h2>
+            <p>"With determination and unwavering strength, I rise to push forward. No obstacle is too great to conquer, no challenge too tough to overcome__I remain steadfast in the face of adversity, refusing to waver in my pursuit of success. <strong>Rise. Adapt. Conquer. Repeat.</strong>" </p>
+           <br> <img src="img.Profile.jpg" alt="My Profile Picture" class="swing">
+            </header>
+        </div>          
+        
+        <nav>
+            <button onclick="showSection('about')">My Bio</button>
+            <button onclick="showSection('Work')">Profession</button>
+            <button onclick="showSection('Projects')">Achievements</button>
+            <button onclick="showSection('Clients')">Customer Feedback</button>
+            <button onclick="showSection('contact')">Get in Touch</button>
+        </nav>
+        
+        <section id="about">
+            <h2>Get to Know Me</h2>
+           <p> Hello! I am GRACE EMMACULATE, a top-tier Kenyan coder passionate about crafting innovative software solutions that push boundaries. With expertise in  Python, JavaScript, Java, CSS, C++ etc., I specialize in developing high-performance applications, solving complex problems, and creating impactful digital experiences.</p>
+
+           <p><em>💡 What Makes Me Stand Out:</em></p>
+         <ol>
+           <br><li> Mastery of multiple programming languages</li>
+           <br><li>Experience in [Web Development, AI, Mobile Apps, Cybersecurity, etc.]</li>
+           <br><li>Winner of [coding competitions, hackathons, and awards]</li>
+           <br><li>Contributed to open-source projects & tech communities</li>
+           <br><li>Passion for mentoring and uplifting Kenya's tech scene</li>
+         </ol>
+
+        </section>
+
+        <section id="Work">
+            <h2>Behind the Scenes</h2>
+            <p>Computer coding, or programming, involves writing instructions (code) that a computer can understand and execute. These instructions are written using programming languages such as Python, Java, C++, or JavaScript. Coding is used to create software applications, websites, games, and automate tasks.</p>
+
+            <p>What Coding Entails:</p>
+            <ul>
+              <br><li>Understanding a Problem; Identifying what needs to be solved or automated.</li>
+              <br><li>Choosing a Programming Language; Selecting the best language for the task.</li>
+              <br><li>Writing Code; Using syntax and logic to create functional programs.</li>
+              <br><li>Debugging; Fixing errors and improving performance.</li>
+              <br><li>Testing; Ensuring the program works as expected.</li>
+              <br><li>Optimization; Making the code efficient and scalable.</li>
+              <br><li>Deployment; Running the code on a live system or platform.</li>
+              <br><li>Maintenance & Updates; Keeping the software functional over time.</li>
+            </ul>
+        </section>
+
+        <section id="Projects">
+        <h2>My Work in Action</h2>
+           <h3> 🚀 My Work & Achievements</h3>
+           <ul>
+             <br><li>Developed webpages e.g Verod Webpage, The Marts coders webpage.</li>
+             <br><li>Built solutions used by The Uzima Borehole Drilling System Company.</li>
+             <br><li>Active in GitHub, Stack Overflow, tech meetups, etc.</li>
+             <br><li>Speaker at tech conferences, workshops and universities.</li>
+          </ul>
+
+          <h3>🌍 Vision</h3>
+           <p><strong>My goal is to position Kenya as a global tech hub by mentoring upcoming developers, contributing to groundbreaking projects, and innovating solutions that solve real-world challenges.</strong></p>
+
+        </section>
+
+        <section id="Clients">
+            <h2>Reviews & Recommendations</h2>
+        </section>
+        <section id="contact">
+            <h2>Connect With Me</h2
+            <div class="contact-icons">
+                <a href="https://wa.me/+254797606287" target="_blank"></a>
+                <a href="mailto:graceemacculate@gmail.com"></a>
+                <a href="" target="_blank"></a>
+            </div>
+        </section>
+        <footer style="background-color: rgb(152, 152, 163);text-align: center;padding: 5px;">
+            <p>&copy;GRACE EMMACULATE &gt;&gt;&gt;&gt; 2025 Kenyan Best Coder</p>
+        </footer>
+        <script>
+            function showSection(sectionId) {
+              document.querySelectorAll('section').forEach(section => section.style.display = 'none');
+              document.getElementById(sectionId).style.display = 'block';
+            }
+        </script>
+    </body>
+</html>
